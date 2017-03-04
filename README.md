@@ -1,12 +1,18 @@
-[![Build Status](https://travis-ci.org/pomco/assembly-mill.svg)](https://travis-ci.org/pomco/assembly-mill)
-[![Coverage Status](https://coveralls.io/repos/github/pomco/assembly-mill/badge.svg)](https://coveralls.io/repos/github/pomco/assembly-mill)
-[![Dependencies Status](https://david-dm.org/pomco/assembly-mill.svg)](https://david-dm.org/pomco/assembly-mill.svg)
 # asseambly-mill
 *Assemble  data according to the designated  template file.*
 
-- supported format:
-	-json
+[![Build Status](https://travis-ci.org/pomco/assembly-mill.svg)](https://travis-ci.org/pomco/assembly-mill)
+[![Coverage Status](https://coveralls.io/repos/github/pomco/assembly-mill/badge.svg)](https://coveralls.io/repos/github/pomco/assembly-mill)
+[![Dependencies Status](https://david-dm.org/pomco/assembly-mill.svg)](https://david-dm.org/pomco/assembly-mill.svg)
+
+[![NPM](https://nodei.co/npm/assembly-mill.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/assembly-mill/)
+
+##supported format:
+-json
+
+
 ---------------------
+
 ## example
 > - file structure
 ``` schema     

@@ -9,3 +9,4 @@ node_js:
 - "3"
 - "4"
 - "5"
+sudo: false

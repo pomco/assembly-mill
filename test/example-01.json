@@ -1,0 +1,49 @@
+{
+	"zoo":{
+		"name" : "Chang Long Zoo",
+		"alias":"",
+		"total":80,
+		"non-profit":false,
+		"breeder":{
+			"zone_A" :{
+				"name" : ""
+			},
+			"zone_B" : {"zoneb":""},
+			"zone_C" : [1,2,3,{},"yes",[]],
+			"zone_D" : "none",
+			"zone_E" : {"name":"kitty"},
+			"zone_F" : "{\"name\":\"tom\"}"
+		},
+		"animals" : [
+			"lion",
+			false,
+			88,
+			{
+				"Balinese_Tiger" : [
+					{
+						"name" : "tom",
+						"age" :5,
+						"birthday":"2017/02/28"
+
+					},
+					"{\"name\":\"Brady\",\"age\":9,\"birthday\":\"\"}"
+				],
+				"Javan_Tiger":{},
+				"Caspian_Tiger":"",
+				"Sumatran_Tiger":"can't not json stringify",
+				"Siberian_Tiger":{
+					"name" : [],
+					"age" :"",
+					"birthday":{}
+				},
+				"Panthera_tigris_tigris":"{\"name\":\"tomas\",\"age\":3,\"birthday\":\"\"}"
+			},
+			{
+				"arr":["sunday"],
+				"k":"kk"
+				},
+			["monday"],
+			["owl","monkey"]
+		]
+	}
+}

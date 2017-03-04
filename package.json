@@ -1,0 +1,33 @@
+{
+  "name": "assembly-mill",
+  "version": "0.0.0",
+  "description": "Assemble  data according to the designated template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u tdd ./test/*.js"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "javascript",
+    "json",
+    "template",
+    "assemble",
+    "fill",
+    "grunt",
+    "mocha",
+    "chai"
+  ],
+  "author": "pomco",
+  "license": "MIT",
+  "dependencies": {
+    "read-config": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "mocha": "^3.2.0"
+  }
+}

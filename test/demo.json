@@ -1,0 +1,46 @@
+{
+	"zoo":{
+		"name" : "The City Zoo",
+		"alias":"",
+		"total":100,
+		"non-profit":true,
+		"breeder":{
+			"zone_A" :{
+				"name" : ""
+			},
+			"zone_B" : {},
+			"zone_C" : [],
+			"zone_D" : "none",
+			"zone_E" : "{\"name\":\"\"}",
+			"zone_F" : "{\"name\":\"kitty\"}"
+		},
+		"animals" : [
+			"lion",
+			false,
+			88,
+			{
+				"Balinese_Tiger" : [
+					{
+						"name" : "tom",
+						"age" :5,
+						"birthday":"2017/02/28"
+
+					},
+					"{\"name\":\"Brady\",\"age\":2,\"birthday\":\"\"}"
+				],
+				"Javan_Tiger":{},
+				"Caspian_Tiger":"",
+				"Sumatran_Tiger":"{\"name\":\"tomas\",\"age\":3,\"birthday\":\"\"}",
+				"Siberian_Tiger":{
+					"name" : [],
+					"age" :"",
+					"birthday":{}
+				},
+				"Panthera_tigris_tigris":"{\"name\":\"tomas\",\"age\":3,\"birthday\":\"\"}"
+			},
+			{},
+			[],
+			["owl","monkey"]
+		]
+	}
+}

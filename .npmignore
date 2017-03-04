@@ -1,0 +1,9 @@
+# no .a and .c files
+* .[ac]
+
+
+# ignore all files in the node_modules/ directory
+node_modules/
+
+# ignore all .log files in the reporter/ directory
+reporter/**/*.log

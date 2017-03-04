@@ -6,6 +6,10 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -u tdd ./test/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pomco/assembly-mill.git"
+  },
   "keywords": [
     "nodejs",
     "js",

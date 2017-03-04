@@ -1,5 +1,4 @@
-[![[Build Status](https://travis-ci.org/pomco/assembly-mill.svg)]](https://travis-ci.org/pomco/assembly-mill)
-
+[![Build Status](https://travis-ci.org/pomco/assembly-mill.svg)](https://travis-ci.org/pomco/assembly-mill)
 # asseambly-mill
 *Assemble  data according to the designated  template file.*
 
@@ -214,9 +213,9 @@ console.log(tm.render());
 	- expected
 ```expected
 a) Bost  [conditons-01]  and [conditons-02]  retrun true,then `DemoObj.key =obj.key`
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively.
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively
 c) Bost  [conditons-01]  and [conditons-04] retun true,then `DemoObj.key =obj.key`
-d) others, nothing to change.
+d) others, nothing to change
 ```
 - Rule two 
 	- conditons	 
@@ -231,7 +230,7 @@ d) others, nothing to change.
 
 	- expected
 ```expected
-a)  Bost  [conditons-01]  and [conditons-02]  retrun true,then go on recursively
+a) Bost  [conditons-01]  and [conditons-02]  retrun true,then go on recursively
 b) others, nothing to change
 ```
 - Rule three 
@@ -250,11 +249,11 @@ b) others, nothing to change
 	```
 	- expected
 ```expected
-a) Bost  [conditons-01]  and [conditons-02]  retrun true,</br>
-when  (typeof  DemoObj.key === typeof obj.key[index]  && obj.key[index].length>0) return true</br>
-then `DemoObj.key =Obj.key`.
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively.
-c) others, nothing to change.
+a) Bost  [conditons-01]  and [conditons-02]  retrun true,
+   when  (typeof  DemoObj.key === typeof obj.key[index]  && obj.key[index].length>0) return true
+   then `DemoObj.key =Obj.key` 
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively
+c) others, nothing to change
 ```
 - Rule four 
 	- conditons	 
@@ -268,8 +267,8 @@ c) others, nothing to change.
 	```
 	- expected
 ```expected
-a) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively.
-b) others, nothing to change.
+a) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively
+b) others, nothing to change
 ```
 
 - Rule five 
@@ -288,9 +287,9 @@ b) others, nothing to change.
 	```
 	- expected
 ```expected
-a)  Bost  [conditons-01]  and [conditons-02]  retrun true,then `DemoObj.key =obj.key`.
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then `DemoObj.key =obj.key`.
-c) others, go on recursively.
+a) Bost  [conditons-01]  and [conditons-02]  retrun true,then `DemoObj.key =obj.key`
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then `DemoObj.key =obj.key`
+c) others, go on recursively
 ```
 
 - Rule six 
@@ -309,11 +308,11 @@ c) others, go on recursively.
 	```
 	- expected
 ```expected
-a) Bost  [conditons-01]  and [conditons-02]  retrun true,</br>
-when (typeof obj.key[index] ==='object' but not instanof Array && JSON.stringfity(obj.key[index]),length>2) return true</br>
+a) Bost  [conditons-01]  and [conditons-02]  retrun true,
+   when (typeof obj.key[index] ==='object' but not instanof Array && JSON.stringfity(obj.key[index]),length>2) return true
 then `DemoObj.key =Obj.key[index]`
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then do nothing to change.
-c) others, then go on recursively.
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then do nothing to change
+c) others, then go on recursively
 ```
 
 - Rule seven 
@@ -333,7 +332,7 @@ c) others, then go on recursively.
 	- expected
 ```expected
 a) Bost  [conditons-01]  and [conditons-02]  retrun true, `DemoObj.key.push(obj.key)`
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively.
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then go on recursively
 c) others, do nothing change
 ```
 - Rule eight 
@@ -352,9 +351,9 @@ c) others, do nothing change
 	```
 	- expected
 ```expected
-a) Bost  [conditons-01]  and [conditons-02]  retrun true, `DemoObj.key.push(obj.key)`.
-b) Bost  [conditons-01]  and [conditons-03] retrun true, then do nothing to change.
-c) others, go on recursively.
+a) Bost  [conditons-01]  and [conditons-02]  retrun true, `DemoObj.key.push(obj.key)`
+b) Bost  [conditons-01]  and [conditons-03] retrun true, then do nothing to change
+c) others, go on recursively
 ```
 
 - Rule night 
@@ -373,6 +372,7 @@ c) others, go on recursively.
 	```
 	- expected
 ```expected
-a) Bost  [conditons-01]  and [conditons-02]  retrun true, `DemoObj.key = obj.key`.
-b) Bost  [conditons-01]  and [conditons-03] retrun true, `DemoObj.key = obj.key`.
-c) others, go on recursively.
+a) Bost  [conditons-01]  and [conditons-02]  retrun true, `DemoObj.key = obj.key`
+b) Bost  [conditons-01]  and [conditons-03] retrun true, `DemoObj.key = obj.key`
+c) others, go on recursively
+```

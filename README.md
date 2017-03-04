@@ -1,4 +1,4 @@
-[[![Build Status](https://travis-ci.org/pomco/assembly-mill.svg)]](https://travis-ci.org/pomco/assembly-mill)
+[![[Build Status](https://travis-ci.org/pomco/assembly-mill.svg)]](https://travis-ci.org/pomco/assembly-mill)
 
 # asseambly-mill
 *Assemble  data according to the designated  template file.*

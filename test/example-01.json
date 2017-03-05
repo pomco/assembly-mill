@@ -6,7 +6,7 @@
 		"non-profit":false,
 		"breeder":{
 			"zone_A" :{
-				"name" : ""
+				"name" : "zonea"
 			},
 			"zone_B" : {"zoneb":""},
 			"zone_C" : [1,2,3,{},"yes",[]],
@@ -15,9 +15,9 @@
 			"zone_F" : "{\"name\":\"tom\"}"
 		},
 		"animals" : [
-			"lion",
-			false,
-			88,
+			["tiger","lion",{}],
+			true,
+			8080,
 			{
 				"Balinese_Tiger" : [
 					{
@@ -41,9 +41,62 @@
 			{
 				"arr":["sunday"],
 				"k":"kk"
-				},
+			},
 			["monday"],
-			["owl","monkey"]
+			{
+				"name":""
+			}
 		]
+	},
+	"for_test" : {
+		"emptyStringAndEmptyString":"",
+		"emptyStringAndEmptyObjectNotArray":{},
+		"emptyStringAndEmptyArray":[],
+		"emptyStringAndNoEmptyString":"not empty string",
+		"emptyStringAndNoEmptyObjectNotArray":{"isEampt":false},
+		"emptyStringAndNoEmptyArray":["no"],
+		"emptyStringAndJosnParseString":"{\"json\":\"yse\"}",
+		"noEmptyStringAndEmptyString":"",
+		"noEmptyStringAndEmptyObjectNotArray":{},
+		"noEmptyStringAndEmptyArray":[],
+		"noEmptyStringAndNoEmptyString":"not empty string",
+		"noEmptyStringAndNoEmptyObjectNotArray":{"isEampt":false},
+		"noEmptyStringAndNoEmptyArray":["no"],
+		"noEmptyStringAndJosnParseString":"{\"json\":\"yse\"}",
+		"JosnParseStringAndEmptyString":"",
+		"JosnParseStringAndEmptyObjectNotArray":{},
+		"JosnParseStringAndEmptyArray":[],
+		"JosnParseStringAndNoEmptyString":"not empty string",
+		"JosnParseStringAndNoEmptyObjectNotArray":{"isEampt":false},
+		"JosnParseStringAndNoEmptyArray":["no"],
+		"JosnParseStringAndJosnParseString":"{\"title\":\"jk\",\"name\":\"ck\",\"alias\":\"ok\"}",
+		"emptyObjectNotArrayAndEmptyString":"",
+		"emptyObjectNotArrayAndEmptyObjectNotArray":{},
+		"emptyObjectNotArrayAndEmptyArray":[],
+		"emptyObjectNotArrayAndNoEmptyString":"yes",
+		"emptyObjectNotArrayAndNoEmptyObjectNotArray":{"isEampt":false},
+		"emptyObjectNotArrayAndNoEmptyArray":["no",{"name":"zonea","alias":""}],
+		"emptyObjectNotArrayAndJosnParseString":"{\"title\":\"jk\",\"name\":\"ck\",\"alias\":\"ok\"}",
+		"noEmptyObjectNotArrayAndEmptyString":"",
+		"noEmptyObjectNotArrayAndEmptyObjectNotArray":{},
+		"noEmptyObjectNotArrayAndEmptyArray":[],
+		"noEmptyObjectNotArrayAndNoEmptyString":"yes",
+		"noEmptyObjectNotArrayAndNoEmptyObjectNotArray":{"name":"notzonea","alias":"zongb"},
+		"noEmptyObjectNotArrayAndNoEmptyArray":[{"name":"zonec","alias":"c"}],
+		"noEmptyObjectNotArrayAndJosnParseString":"{\"name\":\"a\",\"alias\":\"abc\"}",
+		"emptyArrayAndEmptyString":"",
+		"emptyArrayAndEmptyObjectNotArray":{},
+		"emptyArrayAndEmptyArray":[],
+		"emptyArrayAndNoEmptyString":"such as",
+		"emptyArrayAndNoEmptyObjectNotArray":{"name":"zonec","alias":"c"},
+		"emptyArrayAndNoEmptyArray":["no",{"name":"zonea","alias":""}],
+		"emptyArrayAndJosnParseString":"{\"name\":\"a\",\"alias\":\"abc\"}",
+		"noEmptyArrayAndEmptyString":"",
+		"noEmptyArrayAndEmptyObjectNotArray":{},
+		"noEmptyArrayAndEmptyArray":[],
+		"noEmptyArrayAndNoEmptyString":"ah",
+		"noEmptyArrayAndNoEmptyObjectNotArray":{"name":"kk","alias":"yse,kk"},
+		"noEmptyArrayAndNoEmptyArray":["the first",{"name":"chang a","alias":"chang b"}],
+		"noEmptyArrayAndJosnParseString":"{\"title\":\"jk\",\"name\":\"ck\",\"alias\":\"ok\"}"
 	}
 }

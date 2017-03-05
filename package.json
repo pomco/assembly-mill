@@ -1,6 +1,6 @@
 {
   "name": "assembly-mill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Assemble  data according to the designated template.",
   "main": "index.js",
   "scripts": {
